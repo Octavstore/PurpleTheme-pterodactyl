@@ -7,4 +7,4 @@ bash <(curl https://raw.githubusercontent.com/Octavstore/OrangeTheme-pterodactyl
 
 Screenshots:
 # Instalation Script
-![Instalation script](https://i.imgur.com/8hFZG5b.png "Instalation script")
+![Instalation script](https://cdn.discordapp.com/attachments/1047449075815039016/1048387097976918057/image.png "Instalation script")
