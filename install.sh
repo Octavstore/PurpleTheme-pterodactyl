@@ -9,16 +9,16 @@ clear
 
 installTheme(){
     cd /var/www/
-    tar -cvf OrangeTheme-pterodactylbackup.tar.gz pterodactyl
+    tar -cvf PurpleTheme-pterodactylbackup.tar.gz pterodactyl
     echo "Installing theme..."
     cd /var/www/pterodactyl
-    rm -r OrangeTheme-pterodactyl
-    git clone https://github.com/Octavstore/OrangeTheme-pterodactyl.git
-    cd OrangeTheme-pterodactyl
-    rm /var/www/pterodactyl/resources/scripts/OrangeTheme-pterodactyl.css
+    rm -r PurpleTheme-pterodactyl
+    git clone https://github.com/Octavstore/PurpleTheme-pterodactyl.git
+    cd PurpleTheme-pterodactyl
+    rm /var/www/pterodactyl/resources/scripts/PurpleTheme-pterodactyl.css
     rm /var/www/pterodactyl/resources/scripts/index.tsx
     mv index.tsx /var/www/pterodactyl/resources/scripts/index.tsx
-    mv OrangeTheme-pterodactyl.css /var/www/pterodactyl/resources/scripts/OrangeTheme-pterodactyl.css
+    mv PurpleTheme-pterodactyl.css /var/www/pterodactyl/resources/scripts/PurpleTheme-pterodactyl.css
     cd /var/www/pterodactyl
 
     curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
@@ -47,14 +47,14 @@ installThemeQuestion(){
 }
 
 repair(){
-    bash <(curl https://raw.githubusercontent.com/Octavstore/OrangeTheme-pterodactyl/main/repair.sh)
+    bash <(curl https://raw.githubusercontent.com/Octavstore/PurpleTheme-pterodactyl/main/repair.sh)
 }
 
 restoreBackUp(){
     echo "Restoring backup..."
     cd /var/www/
-    tar -xvf OrangeTheme-pterodactyl.tar.gz
-    rm OrangeTheme-pterodactyl.tar.gz
+    tar -xvf PurpleTheme-pterodactyl.tar.gz
+    rm PurpleTheme-pterodactyl.tar.gz
 
     cd /var/www/pterodactyl
     yarn build:production
