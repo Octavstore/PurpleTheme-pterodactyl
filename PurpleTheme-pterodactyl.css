@@ -1,5 +1,5 @@
 html {
-  background-image: url("https://media.discordapp.net/attachments/1047449075815039016/1048381654466580500/background.jpg");
+  background-image: url("https://cdn.discordapp.com/attachments/1047449075815039016/1048850796529336370/backround-minecraft.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
@@ -154,7 +154,7 @@ div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP.StartupContainer___StyledTitledGr
 }
 
 div.App___StyledDiv-sc-2l91w7-0.fnfeQw {
-  background-image: url("https://media.discordapp.net/attachments/1047449075815039016/1048381654466580500/background.jpg");
+  background-image: url("https://cdn.discordapp.com/attachments/1047449075815039016/1048850796529336370/backround-minecraft.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
@@ -174,10 +174,6 @@ div.style-module_1DtraXMW.bg-gray-700 {
   background-color: #2a284d;
 }
 
-input.Input-sc-19rce1w-0.jqTCDz {
-  background-color: #191832;
-}
-
 div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP {
   background-color: #242538;
 }
@@ -192,4 +188,80 @@ div.grid.grid-cols-10.py-4.border-b-2.border-gray-800.last:rounded-b.last:border
 
 .GreyRowBox-sc-1xo9c6v-0 {
   background-color: #242538;
+}
+
+div.GreyRowBox-sc-1xo9c6v-0.iTERJN {
+  background-color: #1B1C32;
+}
+
+.bg-neutral-900 {
+  background-color: #333447;
+}
+
+p.StartupContainer___StyledP-sc-163imy2-3.ekbHAG {
+  background-color: #333447;
+}
+
+p.SettingsContainer___StyledCode-sc-1e5ycmz-12.EwfIk {
+  background-color: #333447;
+}
+
+p.SettingsContainer___StyledCode2-sc-1e5ycmz-14.izAmwE {
+  background-color: #333447;
+}
+
+h2.ScheduleCheatsheetCards___StyledH-sc-fr1egy-2.aTtbm {
+  background-color: #1B1C32;
+}
+
+div.ScheduleCheatsheetCards___StyledDiv3-sc-fr1egy-3.lhtSTn {
+  background-color: #2e2f48;
+}
+
+div.ScheduleCheatsheetCards___StyledDiv6-sc-fr1egy-6.jWRWLT {
+  background-color: #333447;
+}
+
+div.ScheduleCheatsheetCards___StyledDiv9-sc-fr1egy-9.cCQdBf {
+  background-color: #2e2f48;
+}
+
+div.ScheduleCheatsheetCards___StyledDiv12-sc-fr1egy-12.lebLKr {
+  background-color:  #333447;
+}
+
+div.ScheduleCheatsheetCards___StyledDiv15-sc-fr1egy-15.efYmCH {
+  background-color: #2e2f48;
+}
+
+h2.ScheduleCheatsheetCards___StyledH2-sc-fr1egy-19.dbsTVC {
+  background-color: #1B1C32;
+}
+
+div.ScheduleCheatsheetCards___StyledDiv20-sc-fr1egy-21.fTWzzm {
+  background-color: #2e2f48;
+}
+
+div.ScheduleCheatsheetCards___StyledDiv23-sc-fr1egy-24.fJdniM {
+  background-color: #333447;
+}
+
+div.ScheduleCheatsheetCards___StyledDiv26-sc-fr1egy-27.jwfPOa {
+  background-color: #2e2e2e;
+}
+
+div.ScheduleCheatsheetCards___StyledDiv29-sc-fr1egy-30.eKlBFD {
+  background-color: #333447;
+}
+
+div.style-module_1n_DiqmT style-module_1AMtO9lt {
+  background-color: #1B1C32;
+}
+
+div.cm-s-ayu-mirage.CodeMirror {
+  background-color: #1B1C32;
+}
+
+div.cm-s-ayu-mirage.CodeMirror-gutters {
+  background-color: #1B1C32;
 }
